@@ -330,7 +330,7 @@ class _HomeScreenState extends State<HomeScreen> {
         CustomTextField(
           controller: _controllerNote,
           labelText: "Notes",
-          textInputType: TextInputType.datetime,
+          textInputType: TextInputType.text,
         ),
         SizedBox(
           height: size.height * 0.002,
